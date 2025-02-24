@@ -1,7 +1,12 @@
 import './App.css';
+import { FollowMouse } from './components/FollowMouse';
 
 function App() {
-  return <h1>Mouse follower</h1>;
+  return (
+    <main>
+      <FollowMouse />
+    </main>
+  );
 }
 
 export default App;
